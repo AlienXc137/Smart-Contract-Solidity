@@ -1,0 +1,158 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_initialOwner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "freelancerProfiles",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "wallet",
+						"type": "address"
+					},
+					{
+						"internalType": "uint8",
+						"name": "experianceYears",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bool",
+						"name": "available",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "hourlyRateWei",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTotalFreelancers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initialOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "experianceYears",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "hourlyRateWei",
+						"type": "uint256"
+					}
+				],
+				"name": "registerFreelancer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Dework.sol": "Dework"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Dework.sol": {
+			"keccak256": "0xaaa4e47a45978676cfc06777405666d7091326985e1e9b55fe9286a058d02986",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c60fed4d77d22b00e0afed533eae2e2392759a4e90d576d06497e54f71929914",
+				"dweb:/ipfs/QmbV1WGWqsokgXXb2W5rCK3DjPNECQkkXCZDJneiPFjHuY"
+			]
+		},
+		"contracts/types/DeworkTypes.sol": {
+			"keccak256": "0x391a7c41b56cf422b72d229378d90ccbefe150d40b2e64a6f717f3afc420abc4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://64ebdf3d3ebb10378aabed79dc6ada92a182c83298ad08e552cc138d7cda9f26",
+				"dweb:/ipfs/QmcKccbdyeiQaN9w6Tj4dYNBhndX9bXJ5n2RpQbHWE7EUk"
+			]
+		}
+	},
+	"version": 1
+}
